@@ -12,3 +12,24 @@ pygmentsstyle = "pastie"
 
 [taxonomies]
   tag = "tags"
+
+[[menu.main]]
+    name = "GitHub"
+    pre = "<span class='social social-github'></span>"
+    weight = 1
+    identifier = "GitHub"
+    url = "http://github.com/guitsaru"
+
+[[menu.main]]
+    name = "Twitter"
+    pre = "<span class='social social-twitter'></span>"
+    weight = 2
+    identifier = "Twitter"
+    url = "http://github.com/guitsaru"
+
+[[menu.main]]
+    name = "Resume"
+    pre = "<span class='glyphicons glyphicons-note'></span>"
+    weight = 3
+    identifier = "Resume"
+    url = "http://resume.mattpruitt.com"

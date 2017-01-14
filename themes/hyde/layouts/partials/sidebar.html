@@ -8,9 +8,13 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Home</a> </li>
+      <li>
+        <a href="/"><span class="social social-rss"></span> Home</a>
+      </li>
       {{ range .Site.Menus.main }}
-        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+        <li>
+          <a href="{{.URL}}">{{.Pre}} {{ .Name }} </a>
+        </li>
       {{end}}
     </ul>
 
