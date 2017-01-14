@@ -25,7 +25,7 @@ pygmentsstyle = "pastie"
     pre = "<span class='social social-twitter'></span>"
     weight = 2
     identifier = "Twitter"
-    url = "http://github.com/guitsaru"
+    url = "http://twitter.com/guitsaru"
 
 [[menu.main]]
     name = "Resume"
