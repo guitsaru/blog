@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Matt Pruitt"
-baseurl = "http://mattpruitt.com/"
+baseurl = "https://mattpruitt.com/"
 theme = "hyde"
 
 PygmentsCodeFences = true
