@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matt Pruitt</title>
+    <link>http://mattpruitt.com/index.xml</link>
+    <description>Recent content on Matt Pruitt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Jan 2017 12:12:59 -0800</lastBuildDate>
+    <atom:link href="http://mattpruitt.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Skip ActiveModel Callbacks</title>
+      <link>http://mattpruitt.com/post/skip-callbacks/</link>
+      <pubDate>Sat, 14 Jan 2017 12:12:59 -0800</pubDate>
+      
+      <guid>http://mattpruitt.com/post/skip-callbacks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
