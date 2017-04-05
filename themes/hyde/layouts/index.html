@@ -1,25 +1,29 @@
 {{ partial "head.html" . }}
+
 <body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
 
 {{ partial "sidebar.html" . }}
 
     <div class="content container">
-<div class="posts">
+      <div class="posts">
+        {{ range .Data.Pages }}
 
-      {{ range .Data.Pages }}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ .Permalink }}">
-        {{ .Title }}
-      </a>
-    </h1>
+          <div class="post">
+            <h1 class="post-title">
+              <a href="{{ .Permalink }}">
+                {{ .Title }}
+              </a>
+            </h1>
 
-    <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+            <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
 
-    {{ .Content }}
-  </div>
-  {{ end }}
-</div>
-</div>
+            {{ .Content }}
+          </div>
+
+        {{ end }}
+      </div>
+    </div>
+
+    {{ partial "drip.html" . }}
   </body>
 </html>
